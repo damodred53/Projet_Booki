@@ -1,4 +1,62 @@
-p
+
+/* indication générale sur la page*/
+
+
+*
 {
-    font-family: 'railway', sans-serif;
+    font-family: 'raleway' , sans-serif ;
 }
+body
+{
+    max-width: 1400px;
+}
+h1
+{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+}
+header
+{
+    padding: 48px;
+}
+/*header*/
+
+.ligne_superieur
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 97px;
+    padding-top: 48px;
+    text-align: center;
+    text-decoration: no;
+}
+.icon_booki
+{
+    width: 61.09px;
+    height: 19px;
+}
+.nav_hebergement_activite
+{
+    display: flex;
+    color: #0065FC;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hebergement
+{
+    padding-right: 67px;
+}
+  .activites:hover , .hebergement:hover
+{
+    border-top: 2px #0065FC solid ;
+    padding-top: 50px;
+}
+.hebergment_trouver p
+{
+    margin-top: 0px;
+}
+
+

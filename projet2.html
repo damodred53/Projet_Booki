@@ -5,8 +5,11 @@
   <title>projet2</title>
   <link rel="stylesheet" href="projet2.css">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
     </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+        </style>
   <script src="https://kit.fontawesome.com/8d2f5fe61d.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -20,10 +23,10 @@
 
             <nav class="nav_hebergement_activite">
                 <div>
-                    <a href="" class="hebergement">Hébergements</a>
+                    <a href="#hebergement_marseille" class="hebergement">Hébergements</a>
                 </div>
                 <div>
-                    <a href="" class="activites">Activités</a>
+                    <a href="#activités_marseille" class="activites">Activités</a>
                 </div>
             </nav>
 
@@ -34,13 +37,14 @@
             <p>En plein centre-ville ou en pleine nature</p>
         </section>
 
-        <section class="search">   <!--je reviendrais plus tard ici -->
+        <section class="search">   
 
-            <form method="get" action="">
-
-                <div class="geo_indicateur"><img src="Images+Booki/Images Booki/logo/Vector(8).png"</div>
-                <input type="text" name="recherche" id="recherche">
-                <div class="rechercher">Rechercher</div>
+            <form class="search" method="get" action="">
+                <label class="label" for="recherche">
+                    <div class="geo_indicateur"><img src="Images+Booki/Images Booki/logo/Vector(8).png"></div>
+                </label>
+                <input type="text" class="formulaire" name="recherche" id="recherche" value="Marseille, France"  required>
+                <input type="submit" value="Rechercher" class="validation">
             </form>
 
         </section>
@@ -48,17 +52,17 @@
         <section class="navigateur">
 
             <h2>Filtres</h2>
-            <div class="Économique">
-                <a href=""><img src="Images+Booki/Images Booki/logo/Vector.png"><h2>Économique</h2></a>
+            <div class="">
+                <a class="Économique" href=""><img src="Images+Booki/Images Booki/logo/Vector.png"><h2>Économique</h2></a>
             </div>
-            <div class="Familial">
-                <a href=""><img src="Images+Booki/Images Booki/logo/Vector(6).png"><h2>Familial</h2></a>
+            <div>
+                <a class="Familial" href=""><img src="Images+Booki/Images Booki/logo/Vector(6).png"><h2>Familial</h2></a>
             </div>
-            <div class="Romantique" >
-                <a href=""><img src="Images+Booki/Images Booki/logo/Vector(2).png"><h2>Romantique</h2></a>
+            <div>
+                <a class="Romantique" href=""><img src="Images+Booki/Images Booki/logo/Vector(2).png"><h2>Romantique</h2></a>
             </div>
-            <div class="Animaux autorisés">
-                <a href=""><img src="Images+Booki/Images Booki/logo/Vector(4).png"><h2>Animaux autorisés</h2></a>
+            <div>
+                <a class="Animaux_autorisés" href=""><img src="Images+Booki/Images Booki/logo/Vector(4).png"><h2>Animaux autorisés</h2></a>
             </div>
 
         </section>
@@ -78,7 +82,7 @@
 
         <section class="deux_blocs">
 
-            <div class="bloc_left">
+            <div class="bloc_left" id="hebergement_marseille">
                 <h1>Hébergements à Marseille</h1>
                 <div class="container_1">
                     <a href="">
@@ -243,7 +247,7 @@
             </div>
         </section>
 
-        <section class="activités_marseille">
+        <section class="activités_marseille" id="activités_marseille">
 
             <div>
                 <h1>Activités à Marseille</h1>

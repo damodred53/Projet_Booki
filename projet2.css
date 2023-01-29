@@ -60,6 +60,10 @@ header
     flex-direction: row;
     justify-content: space-around;
 }
+.hebergment_trouver p
+{
+    margin-bottom: 20px;
+}
 
 .hebergement
 {
@@ -126,13 +130,14 @@ header
 {
     display: flex;
     flex-direction: row;
-    padding-top: 46px;
+    padding-top: 40px;
     justify-content:space-between;
     flex-grow: 1;
     height: 50px;
     width: 914px;
     left: 62px;
     top: 280px;
+    align-items: center;
 }
 
 .Familial , .Économique , .Romantique , .Animaux_autorisés
@@ -141,10 +146,11 @@ header
     flex-direction: row;
     align-items: center;
     border: 2px solid #D9D9D9;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-right: 15px;
     border-radius: 25px;
-    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .Familial:hover , .Économique:hover , .Romantique:hover , .Animaux_autorisés:hover
 {
@@ -179,12 +185,19 @@ header
     padding: 7px 10px;
     margin-right: 11px;
 }
+/*Les deux blocs centraux*/
+.deux_blocs
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 /*partie centrale bloc de gauche*/
 
 .bloc_left
 {
-    width: 880px;
+    width: 64%;
     height: 626px;
     background-color: rgba(242, 242, 242, 1);
     border-radius: 20px;
@@ -193,15 +206,10 @@ header
 .bloc_left h1
 {
     padding-top: 40px;
-    padding-bottom: 23px;
+    padding-bottom: 18px;
     margin-left: 40px;
 }
-/*.container_1
-{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-}*/
+
 .cards
 {
     width: 246px;
@@ -213,20 +221,30 @@ header
 }
 .auberge , .hôtel_port, .hotel_mouettes,  .hôtel_mer , .auberge_panier, .hôtel_Amina
 {
-    Width:  246px;
+    Width:  242px;
     Height: 199px;
     border-radius : 20px;
     background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 24px;
+    border: 4px solid white;
 }
 .cards img
 {
     width: 100%;
     height: 124px;
 }
+.image_top
+{
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
 .cards .stars img
 {
     width: 12px;
     height: 12px;
+    padding-bottom: 5px;
 }
 .text
 {
@@ -239,6 +257,101 @@ header
 {
   padding-top: 7px ;
   padding-bottom: 7px;
+}
+.auberge h2 , .hôtel_port h2, .hotel_mouettes h2,  .hôtel_mer h2 , .auberge_panier h2, .hôtel_Amina h2
+{
+    margin-top: 5px;
+}
+
+/* bloc de droite */
+.bloc_right
+{
+    width: 30%;
+    height: 626px;
+    background-color: rgba(242, 242, 242, 1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bloc_right_content
+{
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    background-color: (#D9D9D9);
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.populaire
+{
+    display: flex;  
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    align-items: center;
+}
+.icone_graphique
+{
+    width: 18px;
+    height: 15px;
+}
+
+.card-1_right , .card-2_right , .card-3_right
+{
+    width: 85%;
+    height: 140px;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;*/
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 24px;
+    object-fit: cover;
+    border: 5px solid white;
+    margin-top: 20px;
+    padding-left:auto;
+    padding-right: 10%;
+}
+.text_right
+{
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: center;
+    height: 90%;
+    width: 50%;
+    margin-left: 10%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    overflow: scroll;
+}
+.text_right p
+{
+    margin-bottom: 44px;
+    margin-top: 5px;
+}
+.stars img
+{
+    width: 12px;
+    height: 12px;
+}
+.text_right h2
+{
+
+}
+
+.images_right
+{
+    height: 100%;
+    width: 40%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    object-fit: cover;
 }
 
 

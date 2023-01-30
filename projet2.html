@@ -1,24 +1,30 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <title>projet2</title>
-  <link rel="stylesheet" href="projet2.css">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+    <meta charset="utf-8">
+    <title>projet2</title>
+    <link rel="stylesheet" href="blocs_centraux.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="card_low.css">
+    <link rel="stylesheet" href="footer.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
     </style>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
-        </style>
-  <script src="https://kit.fontawesome.com/8d2f5fe61d.js" crossorigin="anonymous"></script>
+    </style>
+    <script src="https://kit.fontawesome.com/8d2f5fe61d.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
-
         <section class="ligne_superieur">
 
             <div class="icon_booki">
-                <img src="Images+Booki/Images Booki/logo/resised_booki.png">
+                <img src="Images+Booki/Images Booki/logo/resised_booki.png" alt="icone du site">
             </div>
 
             <nav class="nav_hebergement_activite">
@@ -41,7 +47,7 @@
 
             <form class="search" method="get" action="">
                 <label class="label" for="recherche">
-                    <div class="geo_indicateur"><img src="Images+Booki/Images Booki/logo/Vector(8).png"></div>
+                    <div class="geo_indicateur"><img src="Images+Booki/Images Booki/logo/Vector(8).png" alt="icone d'un pointeur géographique"></div>
                 </label>
                 <input type="text" class="formulaire" name="recherche" id="recherche" value="Marseille, France"  required>
                 <input type="submit" value="Rechercher" class="validation">
@@ -53,16 +59,16 @@
 
             <h2>Filtres</h2>
             <div class="">
-                <a class="Économique" href=""><img src="Images+Booki/Images Booki/logo/Vector.png"><h2>Économique</h2></a>
+                <a class="Économique" href=""><img src="Images+Booki/Images Booki/logo/Vector.png" alt="icone d'un billet"><h2>Économique</h2></a>
             </div>
             <div>
-                <a class="Familial" href=""><img src="Images+Booki/Images Booki/logo/Vector(6).png"><h2>Familial</h2></a>
+                <a class="Familial" href=""><img src="Images+Booki/Images Booki/logo/Vector(6).png" alt="icone montrant une personne"><h2>Familial</h2></a>
             </div>
             <div>
-                <a class="Romantique" href=""><img src="Images+Booki/Images Booki/logo/Vector(2).png"><h2>Romantique</h2></a>
+                <a class="Romantique" href=""><img src="Images+Booki/Images Booki/logo/Vector(2).png" alt="icone de coeur"><h2>Romantique</h2></a>
             </div>
             <div>
-                <a class="Animaux_autorisés" href=""><img src="Images+Booki/Images Booki/logo/Vector(4).png"><h2>Animaux autorisés</h2></a>
+                <a class="Animaux_autorisés" href=""><img src="Images+Booki/Images Booki/logo/Vector(4).png" alt="icone montrant un chien"><h2>Animaux autorisés</h2></a>
             </div>
 
         </section>
@@ -78,29 +84,27 @@
 
 
 
-    <main >
+    <main>
 
         <section class="deux_blocs">
 
             <div class="bloc_left" id="hebergement_marseille">
                 <h1>Hébergements à Marseille</h1>
-                    <div class="cards">
-                        
+                    <div class="cards"> 
                         <a href="">
-                        <div class="auberge">
-                            <img class="image_top" src="Images+Booki/Images Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg">
-                               <div class="text">
-                                   <h2>Auberge La Canebière</h2>
-                                   <p>Nuit à partir de 25€ </p>
+                            <div class="auberge">
+                                <img class="image_top" src="Images+Booki/Images Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="image de chambre d'hôtel">
+                                <div class="text">
+                                        <h2>Auberge La Canebière</h2>
+                                        <p>Nuit à partir de 25€ </p>
                                    <div class="stars">
-                                    <img  src="Images+Booki/Images Booki/logo/Vector(3).png" >
-                                    <img  src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                    <img  src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                    <img  src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                    <img  src="Images+Booki/Images Booki/logo/Vector(7).png" alt="étoile grise">
-                                </div>
-                               </div>
-                                
+                                        <img  src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                        <img  src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                        <img  src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                        <img  src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                        <img  src="Images+Booki/Images Booki/logo/Vector(7).png" alt="icone d'une étoile grise">
+                                    </div>
+                                </div>    
                             </div>
                         </a>
                     
@@ -108,17 +112,17 @@
 
                         <a href="">
                         <div class="hôtel_port">
-                            <img class="image_top" src="Images+Booki/Images Booki/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
+                            <img class="image_top" src="Images+Booki/Images Booki/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="image de chambre d'hôtel">
                                 <div class="text">
                                     <h2>Hôtel du port</h2>
                                     <p>Nuit à partir de 52€</p>
                                 
                             <div class="stars">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="étoile grise">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="icone d'une étoile grise">
                             </div>
                             </div>
                         </div>
@@ -126,17 +130,17 @@
 
                         <a href="">
                         <div class="hotel_mouettes">
-                            <img class="image_top" src="Images+Booki/Images Booki/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg">
+                            <img class="image_top" src="Images+Booki/Images Booki/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="image de chambre d'hôtel">
                                 <div class="text">
                                     <h2>Hôtel Les mouettes</h2>
                                     <p>Nuit à partir de 76€</p>
                                 
                                 <div class="stars">
-                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                    <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="étoile grise">
+                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                    <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="icone d'une étoile grise">
                                 </div>
                             </div>
                         </div>
@@ -144,16 +148,16 @@
 
                         <a href="">
                         <div class="hôtel_mer">
-                            <img class="image_top" src="Images+Booki/Images Booki/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
+                            <img class="image_top" src="Images+Booki/Images Booki/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="image de chambre d'hôtel">
                                  <div class="text">
                                     <h2>Hôtel de la mer</h2>
                                     <p>Nuit à partir de 46€</p>
                                 <div class="stars">
-                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                    <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="étoile grise">
+                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                    <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                    <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="icone d'une étoile grise">
                                 </div>
                             </div>
                         </div>
@@ -161,17 +165,17 @@
 
                         <a href="">
                             <div class="auberge_panier">
-                                <img class="image_top" src="Images+Booki/Images Booki/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
+                                <img class="image_top" src="Images+Booki/Images Booki/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="image de chambre d'hôtel">
                                     <div class="text">
                                         <h2>Auberge Le Panier</h2>
                                         <p>Nuit à partir de 23€</p>
                                     
                                     <div class="stars">
-                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                        <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="étoile grise">
+                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                        <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="icone d'une étoile grise">
                                     </div>
                                 </div>
                             </div>
@@ -179,32 +183,33 @@
 
                         <a href="">
                             <div class="hôtel_Amina">
-                                <img class="image_top" src="Images+Booki/Images Booki/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
+                                <img class="image_top" src="Images+Booki/Images Booki/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="image de chambre d'hôtel">
                                     <div class="text">
                                         <h2>Hôtel Chez Amina</h2>
                                         <p>Nuit à partir de 96€</p>
                                     
                                     <div class="stars">
-                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                                        <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="étoile grise">
+                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                        <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                                        <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="icone d'une étoile grise">
                                     </div>
-                                </div>
-                               
+                                    </div>                       
+                            </div>
                         </div>
                         </a>
-                <div class="afficher_plus">
-                    <h2>Afficher plus</h2>
+                        <div class="afficher_plus">
+                            <h2>Afficher plus</h2>
+                        </div>
                 </div>
-                </div>
+                
             </div>
-
+           
         <div class="bloc_right">
             <div class="populaire">
                 <h1>Les plus populaires</h1>
-                <img class="icone_graphique" src="Images+Booki/Images Booki/logo/Vector(1).png">
+                <img class="icone_graphique" src="Images+Booki/Images Booki/logo/Vector(1).png" alt="icone d'une représentation statistique">
             </div>
             <div class="bloc_right_content">
                 
@@ -212,16 +217,16 @@
                 
                 <div class="card_right">
                     <div class="card-1_right">
-                        <img class="images_right" src="Images+Booki/Images Booki/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
+                        <img class="images_right" src="Images+Booki/Images Booki/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="image de chambre d'hôtel">
                         <div class="text_right">
                             <h2>Hôtel Le soleil du matin</h2>
                             <p>Nuit à partir de 128€</p>
                         <div class="stars">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="étoile grise">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="icone d'une étoile grise">
                         </div>
                         </div>
                     </div>
@@ -229,16 +234,16 @@
 
                 
                     <div class="card-2_right">
-                        <img class="images_right" src="Images+Booki/Images Booki/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg">
+                        <img class="images_right" src="Images+Booki/Images Booki/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="image de chambre d'hôtel">
                         <div class="text_right">
                             <h2>Chambres d'hôtes Au coeur de l'eau</h2>
                             <p>Nuit à partir de 71€</p>
                         <div class="stars">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="étoile grise">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="icone d'une étoile grise">
                         </div>
                         </div>
                     </div>
@@ -247,16 +252,16 @@
 
                 
                     <div class="card-3_right">
-                        <img class="images_right" src="Images+Booki/Images Booki/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
+                        <img class="images_right" src="Images+Booki/Images Booki/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="image de chambre d'hôtel">
                         <div class="text_right">
                         <h2>Hôtel Bleu et Blanc</h2>
                         <p>Nuit à partir de 68€</p>
                         <div class="stars">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(3).png">
-                            <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="étoile grise">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(3).png" alt="icone d'une étoile bleue">
+                            <img src="Images+Booki/Images Booki/logo/Vector(7).png" alt="icone d'une étoile grise">
                         </div>
                         </div>
                     </div>
@@ -264,42 +269,33 @@
             </div>
         </section>
 
-        <!--<section class="activités_marseille" id="activités_marseille">
+        <section class="activités_marseille" id="activités_marseille">
 
-            <div>
+            <div class="activite_marseille" >
                 <h1>Activités à Marseille</h1>
             </div>
 
-            <div class="card_low"></div>
-            <a href="">
-                <div class="container_activité_marseille">
-                    <div class="card_1_activite">
-                        <img src="Images+Booki/Images Booki/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
-                        <h2>Vieux-Port</h2>
-                    </div>
-            </a>
+            <div class="card_low">
+                
+                        <div class="card_1_activite">
+                            <img src="Images+Booki/Images Booki/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="image du Vieux-Port à Marseille">
+                            <h2>Vieux-Port</h2>
+                        </div>
 
-            <a href="">
-                <div class="card_2_activite">
-                    <img src="Images+Booki/Images Booki/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
-                    <h2>Fort de Pomègues</h2>
-                </div>
-            </a>
+                        <div class="card_2_activite">
+                            <img src="Images+Booki/Images Booki/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="image du Fort de Pomègues">
+                            <h2>Fort de Pomègues</h2>
+                        </div>
 
+                        <div class="card_3_activite">
+                            <img src="Images+Booki/Images Booki/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="image du Parc national des Calanques">
+                            <h2>Parc national des Calanques</h2>
+                        </div>
 
-            <a href="">
-                <div class="card_3_activite">
-                    <img src="Images+Booki/Images Booki/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
-                    <h2>Parc national des Calanques</h2>
-                </div>
-            </a>
-
-            <a href="">
-                <div>
-                    <img src="Images+Booki/Images Booki/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg">
-                    <h2>Notre-Dame-de-la-Garde</h2>
-                </div>
-            </a>
+                        <div class="card_4_activite" >
+                            <img src="Images+Booki/Images Booki/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="image de Notre-Dame-de-la-Garde">
+                            <h2>Notre-Dame-de-la-Garde</h2>
+                        </div>
             </div>
         </section>
     </main>
@@ -308,7 +304,7 @@
     
         <section class="propos_herbergement_assistance">
 
-            <div>
+            <div class="liste" >
                 <h2>À propos</h2>
                 <ul>
                     <li>Fonctionnement du site</li>
@@ -317,14 +313,14 @@
                 </ul>
             </div>
 
-            <div>
+            <div class="liste">
                 <h2>Nos Hébergements</h2>
                 <ul>
                     <li>Charte qualité</li>
                     <li>Proposer votre hôtel</li>
                 </ul>
             </div>
-            <div>
+            <div class="liste">
                 <h2>Assistance</h2>
                 <ul>
                     <li>Centre d'aide</li>

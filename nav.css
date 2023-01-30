@@ -1,0 +1,59 @@
+/*navigateur*/
+
+.navigateur
+{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    justify-content:space-between;
+    height: 50px;
+    width: 80%;
+    top: 280px;
+    align-items: center;
+}
+
+.Familial , .Économique , .Romantique , .Animaux_autorisés
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #D9D9D9;
+    padding-left: 10px;
+    padding-right: 15px;
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.Familial:hover , .Économique:hover , .Romantique:hover , .Animaux_autorisés:hover
+{
+    background-color: rgba(222, 235, 255, 1);
+}
+.navigateur h2
+{
+    padding-left: 10px;
+    font-weight: bold;
+}
+.navigateur img
+{
+    margin-left: 15px;
+}
+
+/*Point information*/
+
+.information
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.information img
+{
+    width: 4px;
+    height: 10px;
+    border: 1px solid #D9D9D9 ;
+    border-radius: 50%;
+    padding: 7px 10px;
+    margin-right: 11px;
+}

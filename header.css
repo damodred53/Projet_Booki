@@ -1,0 +1,45 @@
+/*header*/
+
+header
+{
+    padding-left: 50px;
+}
+.ligne_superieur
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 67px;
+    padding-top: 48px;
+    text-align: center;
+    text-decoration: no;
+}
+.icon_booki
+{
+    width: 61.09px;
+    height: 19px;
+    background-image: url("Images+Booki/Images Booki/logo/serrure.svg") /*url("Images+Booki/Images Booki/logo/ellipse.svg")*/;
+    background-repeat: no-repeat;
+    background-position: 61% 65%;
+}
+.nav_hebergement_activite
+{
+    display: flex;
+    color: #0065FC;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.hebergment_trouver p
+{
+    margin-bottom: 20px;
+}
+
+.hebergement
+{
+    margin-right: 67px;
+}
+  .activites:hover , .hebergement:hover
+{
+    border-top: 2px #0065FC solid ;
+    padding-top: 54px;
+}

@@ -5,6 +5,10 @@
     display: flex;
     flex-direction: row;
 }
+.euro
+{
+    font-weight: bold;
+}
 .bloc_left
 {
     width: 64%;

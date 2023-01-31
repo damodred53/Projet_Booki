@@ -5,12 +5,11 @@
     display: flex;
     flex-direction: row;
     justify-content:space-between;
-    width: 100%;
+    width: 80%;
 }
 .activités_marseille
 {
     margin-left: 40px;
-    
 }
 .activite_marseille h1
 {
@@ -21,12 +20,11 @@
 {
     display: flex;
     flex-direction: column;
-    width: 22%;
+    width: 19em;
     height: 445px;
     border-radius: 20px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 24px;
-    margin-right: 4%;
-    
+    margin-right: 45px;
 }
 .card_1_activite img, .card_2_activite img, .card_3_activite img, .card_4_activite img
 {

@@ -57,3 +57,18 @@
     padding: 7px 10px;
     margin-right: 11px;
 }
+@media screen and (max-width: 992px)
+{
+    .ligne_superieur
+    {
+        padding-right: 30px;
+    }
+    .navigateur
+    {
+        width: 95%;
+    }
+    .navigateur a
+    {
+        margin-right: 20px;
+    }
+}

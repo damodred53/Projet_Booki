@@ -1,9 +1,5 @@
 /*header*/
 
-header
-{
-    padding-left: 50px;
-}
 .ligne_superieur
 {
     display: flex;
@@ -55,5 +51,6 @@ header
     padding-top: 54px;
     color: #0065FC;
 }
+
 
 

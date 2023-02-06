@@ -51,6 +51,56 @@
     padding-top: 54px;
     color: #0065FC;
 }
+@media screen and (max-width: 768px)
+{
+    .ligne_superieur
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 150px;
+        max-width: 355px;
+        margin-left: 25%;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .nav_hebergement_activite
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+    }
+    .hebergement
+    {
+        margin-right: 20px;
+        padding-right: 40px;
+    }
+    .activites:hover
+    {
+        border-bottom: #0065FC 3px solid;
+        padding-bottom: 23px;
+        color: #0065FC;
+        border-top-style: none ;
+    }
+    .hebergement:hover
+    {
+        border-bottom: #0065FC 3px solid;
+        padding-bottom: 23px;
+        color: #0065FC;
+        border-top-style: none ;
+    }
+    .hebergment_trouver
+    {
+        margin-top: 21px;
+        margin-left: 26%;
+        margin-right: 192px;
+        padding-left: 3%;
+    }
+    
+ 
+}
 
 
 

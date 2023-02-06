@@ -46,3 +46,38 @@
 {
     padding-left: 35px;
 }
+.validation_2
+{
+    display: none;
+}
+
+@media screen and (max-width: 768px)
+{
+    .validation
+    {
+        display: none;
+    }
+    .validation_2
+    {
+        display: inline-block;
+        background: #0065FC;
+        border: 1px solid #0065FC;
+        border-radius: 0px 15px 15px 0px;
+        color: white;
+        font-weight: 900;
+        width: 49px;
+        font-size: medium;
+        height: 49px;
+    }
+    .search
+    {
+        margin-top: 3.5%;
+        margin-left: 16.5%;
+    }
+    .formulaire
+    {
+        width: 185px;
+        
+    }
+    
+}

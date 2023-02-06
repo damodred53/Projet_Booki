@@ -53,8 +53,7 @@
    .card_1_activite, .card_2_activite, .card_3_activite, .card_4_activite
    {
     height: 267px;
-    margin-right: 2%;
-    width: 182px;
+    width: 185px;
    }
    /*.card_1_activite img, .card_2_activite img, .card_3_activite img, .card_4_activite img
    {
@@ -65,5 +64,41 @@
    height: 8%; 
     padding-top: 10px;
     margin-bottom: 5px;
+    /*width: 182px;*/
    }
 } 
+@media screen and (max-width: 768px)
+{
+    .activités_marseille
+    {
+        margin-left: 30%;
+        margin-top: 0%;
+        max-width: 375px;
+    }
+    .activite_marseille
+    {
+        width: 35%;
+    }
+    .activite_marseille h1
+    {
+        margin-bottom: 0%;
+    }
+    .card_low
+    {
+        display:flex;
+        flex-direction: column;
+        margin-right: 0%;
+    }
+    .card_1_activite, .card_2_activite, .card_3_activite, .card_4_activite
+    {
+        width: 93%;
+        height: 190px;
+        margin-bottom: 24px;
+    }
+    .card_4_activite h2 br
+    {
+        display: none;
+    }
+        
+    
+}

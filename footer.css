@@ -42,11 +42,31 @@ footer
 @media screen and (max-width: 992px)
 {
     footer{
-        width: 93%;
+        width: 95%;
     }
     .liste{
         padding-right: 30px;
     }
+}
 
+@media screen and (max-width: 768px)
+{
 
+    footer
+    {
+        margin-left: 27%;
+        max-width: 375px;
+        height: auto;
+    }
+    .propos_herbergement_assistance
+    {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+        padding-top: 20px;
+    }
+    .liste
+    {
+        margin-bottom: 15px;
+    }
 }

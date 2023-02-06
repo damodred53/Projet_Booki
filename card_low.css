@@ -1,5 +1,5 @@
 /*partie hebergement à Marseille*/
-.activités_marseille
+.activities_marseille
 {
     margin-right: 40px;
 }
@@ -41,35 +41,39 @@
 }
 @media screen and (max-width: 992px)
 {
-    .activités_marseille
+    .activities_marseille
     {
         margin-right: 0px;
+    }
+    .activite_marseille h1
+    {
+        margin-bottom: 40px;
     }
    .card_low
    {
     display: flex;
     margin-right: 50px;
    }
+   .card_low h2
+   {
+    padding-bottom: 17px;
+   }
    .card_1_activite, .card_2_activite, .card_3_activite, .card_4_activite
    {
     height: 267px;
     width: 185px;
    }
-   /*.card_1_activite img, .card_2_activite img, .card_3_activite img, .card_4_activite img
-   {
-    height: 85%;
-   }*/
+   
    .card_1_activite h2, .card_2_activite h2, .card_3_activite h2, .card_4_activite h2
    {
    height: 8%; 
     padding-top: 10px;
     margin-bottom: 5px;
-    /*width: 182px;*/
    }
 } 
 @media screen and (max-width: 768px)
 {
-    .activités_marseille
+    .activities_marseille
     {
         margin-left: 30%;
         margin-top: 0%;

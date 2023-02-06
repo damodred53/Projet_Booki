@@ -1,6 +1,6 @@
 /*Les deux blocs centraux*/
 
-.deux_blocs
+.two-blocs
 {
     display: flex;
     flex-direction: row;
@@ -10,7 +10,7 @@
 {
     font-weight: bold;
 }
-.bloc_left
+.bloc-left
 {
     width: 64%;
     height: 626px;
@@ -19,7 +19,7 @@
     margin-right: 3%;
 }
 
-.bloc_left h1
+.bloc-left h1
 {
     padding-top: 15px;
     margin-left: 40px;
@@ -101,7 +101,7 @@
 }
 
 
-.populaire
+.popular
 {
     display: flex;  
     flex-direction: row;

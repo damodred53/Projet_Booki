@@ -14,25 +14,25 @@ footer
     flex-direction: row;
     justify-content: flex-start;
 }
-.liste
+.list
 {
     padding-top: 4%;
     padding-left: 5%;
     padding-right: 13%;
 }
-.liste h2
+.list h2
 {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;  
     margin-bottom: 20px;
 }
-.liste ul
+.list ul
 {
     list-style-type: none;
     padding-left: 0px;
 }
-.liste li
+.list li
 {
     font-weight: 400;
     font-size: 16px;
@@ -44,7 +44,7 @@ footer
     footer{
         width: 95%;
     }
-    .liste{
+    .list{
         padding-right: 30px;
     }
 }
@@ -65,7 +65,7 @@ footer
         margin-left: 3%;
         padding-top: 20px;
     }
-    .liste
+    .list
     {
         margin-bottom: 15px;
     }

@@ -33,13 +33,13 @@ h2
 }
 @media screen and (max-width: 992px)
 {
-    .deux_blocs
+    .two-blocs
     {
         display: flex;
         flex-direction: column;
         width: 95%;
     }
-    .bloc_left 
+    .bloc-left 
     {
         width: 900px;
     }
@@ -49,8 +49,9 @@ h2
         height: 278px ;
         padding: 0%;
         margin: 0%;
+        margin-top: 55px;
     }
-    .populaire
+    .popular
     {
         width: 90%;
         display: flex;
@@ -58,7 +59,7 @@ h2
         justify-content: space-between;
         margin-top: 25px;
     }
-    .populaire h1
+    .popular h1
     {
         margin-bottom: auto;
         margin-top: auto;
@@ -82,6 +83,10 @@ h2
         margin-left: 1.5%;
         margin-right: 2%;
     }
+    .card-3_right h2
+    {
+        width: 90%;
+    }
     .images_right
     {
         width: 100px;
@@ -104,24 +109,26 @@ h2
     {
         font-size: 13px;
     }
+    .afficher_plus h2
+    {
+        padding-bottom: 0px;
+    }
 }
 
 @media screen and (max-width: 768px)
 {
-    .deux_blocs
+    .two-blocs
     {
         display: flex;
         flex-direction: column-reverse;
         margin-left: 29%;
+        max-width: 375px;
     }
     .card_right
     {
         display: flex;
         flex-direction: column;
         width: 100%;
-        /*height: auto;*/
-        /*max-width: 375px;
-        margin-left: 27%;*/
     }
     .card-1_right, .card-2_right, .card-3_right
     {
@@ -129,17 +136,22 @@ h2
         padding-right: 20px;
         margin-left:auto;
         margin-right: auto;
-        
     }
     .card-1_right img, .card-2_right img, .card-3_right img
     {
         width: 40%;
     }
+    .card-2_right h2, .card-3_right h2
+    {
+        width: 125%;
+    }
+    
     .bloc_right
     {
         border-radius: 0%;
         max-width: 355px;
         height: auto;
+        margin-top: auto;
     }
 
     .cards
@@ -175,7 +187,7 @@ h2
     {
         font-size: 16px;
     }
-    .bloc_left
+    .bloc-left
     {
         background-color: white;
         border-radius: 0%;
@@ -183,7 +195,7 @@ h2
         height: auto;
         width: 100%;
     }
-    .bloc_left h1
+    .bloc-left h1
     {
         margin-left: 3%;
     }

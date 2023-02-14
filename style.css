@@ -54,7 +54,7 @@ h2
 .bloc-left
 {
 	width: 64%;
-	height: 626px;
+	height: 100%;
 	background-color: rgba(242, 242, 242, 1);
 	border-radius: 20px;
 	margin-right: 3%;
@@ -80,7 +80,7 @@ h2
 .auberge , .hôtel_port, .hotel_mouettes,  .hôtel_mer , .auberge_panier, .hôtel_Amina
 {
 	Width:  100%;
-	Height: 199px;
+	Height: auto;
 	border-radius : 20px;
 	background-color: white;
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 10px 24px;
@@ -138,7 +138,7 @@ h2
 .bloc_right
 {
 	width: 26%;
-	height: 626px;
+	height: 100%;
 	background-color: rgba(242, 242, 242, 1);
 	border-radius: 20px;
 	display: flex;
@@ -173,7 +173,7 @@ h2
 .card-1_right , .card-2_right , .card-3_right
 {
 	width: 85%;
-	height: 140px;
+	height: auto;
 	display: flex;
 	flex-direction: row;
 	border-radius: 20px;
@@ -211,7 +211,7 @@ h2
 
 .images_right
 {
-	height: 100%;
+	height: auto;
 	width: 40%;
 	border-top-left-radius: 20px;
 	border-bottom-left-radius: 20px;
@@ -324,7 +324,7 @@ footer
 	font-weight: bold;
 }
 
-.search
+.search_2
 {
 	display: flex;
 	width: 540px;
@@ -443,11 +443,29 @@ footer
 	display: flex;
 	flex-direction: row;
 	padding-top: 40px;
-	justify-content:space-between;
+	/*justify-content:space-between;*/
 	height: 50px;
-	width: 65%;
-	top: 280px;
+	width: 70%;
+	/*top: 280px;*/
 	align-items: center;
+}
+.navigateur a
+{
+	/*width: auto;*/
+	border: 2px solid #D9D9D9;
+	border-radius: 25px;
+	padding-left: 2%;
+	padding-top: 10%;
+	margin-right: 4%;
+	padding-right: 2%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	/*margin-left: 10%;
+	margin-right: 10%;*/	
+}
+.filter-title
+{
+	margin-right: 8%;
 }
 
 .Familial , .Économique , .Romantique , .Animaux_autorisés
@@ -455,12 +473,7 @@ footer
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	border: 2px solid #D9D9D9;
-	padding-left: 10px;
-	padding-right: 15px;
-	border-radius: 25px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	justify-content: center;
 }
 
 .Familial:hover , .Économique:hover , .Romantique:hover , .Animaux_autorisés:hover
@@ -476,7 +489,7 @@ footer
 
 .navigateur img
 {
-	margin-left: 15px;
+	/*margin-left: 15px;*/
 }
 
 /*Point information*/
@@ -512,12 +525,16 @@ footer
 
 	.bloc-left
 	{
-		width: 900px;
+		width: 97%;
+	}
+	.afficher_plus
+	{
+		padding-bottom: 6%;
 	}
 
 	.bloc_right
 	{
-		width: 900px;
+		width: 97%;
 		height: 278px ;
 		padding: 0%;
 		margin: 0%;
@@ -543,20 +560,16 @@ footer
 	{
 		display: flex;
 		flex-direction: row;
-		width: 100%;
+		width: 95%;
 		height: 100%;
-		display: flex;
-		flex-direction: row;
 		align-items: center;
-		justify-content: space-evenly;
+		justify-content: space-around;
 	}
-
-	.card-1_right , .card-2_right , .card-3_right
+	.card_right a
 	{
-		width: 244px;
-		padding-right: 0%;
-		margin-left: 1.5%;
-		margin-right: 2%;
+		width: 30%;
+		padding: 0%;
+		margin: 0%;
 	}
 
 	.card-3_right h2
@@ -566,13 +579,13 @@ footer
 
 	.images_right
 	{
-		width: 100px;
+		width: 40%;
 	}
 
 	.text_right
 	{
 		width: 200px;
-		width: 160px;
+		width: 60%;
 		margin-top: 2%;
 		margin-bottom: 4%;
 		display: flex;
@@ -598,6 +611,7 @@ footer
 	.activities_marseille
 	{
 		margin-right: 0px;
+		
 	}
 
 	.activite_marseille h1
@@ -608,21 +622,26 @@ footer
 	.card_low
 	{
 		display: flex;
-		margin-right: 50px;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+		height: 300px;
 	}
-
+	
 	.card_low h2
 	{
 		padding-bottom: 17px;
 	}
+	
 
-	.card_1_activite, .card_2_activite, .card_3_activite, .card_4_activite
+	.card_1_activite , .card_2_activite , .card_3_activite , .card_4_activite 
 	{
-		height: 267px;
-		width: 185px;
+		height: 90%;
+		width: 80%;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+		
 	}
 	.card_4_activite br
 	{
@@ -648,6 +667,10 @@ footer
 	{
 		width: 95%;
 	}
+	.filter-title
+	{
+		margin-right: 3%
+	}
 
 	.navigateur a
 	{
@@ -657,6 +680,7 @@ footer
 	footer
 	{
 		width: 95%;
+		margin-top: 40px;
 	}
 
 	.list
@@ -670,8 +694,25 @@ footer
 	body
 	{
 		padding-left: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	header 
+	{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	
+	.bloc-left
+	{
 		margin-left: 20px;
 	}
+	.activities_marseille
+	{
+		margin-left: 20px;
+	}
+	
+	
 
 	/* Le header */
 
@@ -683,16 +724,17 @@ footer
 		justify-content: space-around;
 		height: 150px;
 		max-width: 768px;
-		width: auto;
+		width: 100%;
 		padding-top: 0px;
 		padding-bottom: 0px;
+		border-bottom: 3px solid #D9D9D9;
 	}
 
 	.nav-hebergement-activity
 	{
 		display: flex;
 		flex-direction: row;
-		justify-content: center;
+		justify-content: space-around;
 		width: 100%;
 	}
 
@@ -701,11 +743,15 @@ footer
 		margin-right: 20px;
 		padding-right: 40px;
 	}
+	.hebergement-find, .search , .navigateur, .information
+	{
+		margin-left: 20px;
+	}
 
 	.activites:hover
 	{
 		border-bottom: #0065FC 3px solid;
-		padding-bottom: 23px;
+		padding-bottom: 28px;
 		color: #0065FC;
 		border-top-style: none ;
 	}
@@ -713,7 +759,7 @@ footer
 	.hebergement:hover
 	{
 		border-bottom: #0065FC 3px solid;
-		padding-bottom: 23px;
+		padding-bottom: 28px;
 		color: #0065FC;
 		border-top-style: none ;
 	}
@@ -738,20 +784,25 @@ footer
 		border-radius: 0px 15px 15px 0px;
 		color: white;
 		font-weight: 900;
-		width: 49px;
+		width: 15%;
 		font-size: medium;
 		height: 49px;
 	}
 
-	.search
+	.search_2
 	{
-		margin-top: 3.5%;
-		width: auto;
+		margin-top: 10.5%;
+		width: 97%;
+
+	}
+	.label
+	{
+		width: 15%;
 	}
 
 	.formulaire
 	{
-		width: 185px;
+		width: 70%;
 	}
 
 	/* Le navigateur */
@@ -766,6 +817,10 @@ footer
 		row-gap: 2%;
 		column-gap: 0px;
 	}
+	.navigateur h2
+	{
+		padding-left: 0%;
+	}
 
 	.navigateur a
 	{
@@ -773,6 +828,11 @@ footer
 		padding-left: 1px;
 		margin-right: 10px;
 		margin-bottom: 15px;
+		width: 80%;
+	}
+	.navigateur div
+	{
+		width: 97%;
 	}
 
 	.filter-title
@@ -782,11 +842,11 @@ footer
 
 	.Familial , .Économique , .Romantique , .Animaux_autorisés
 	{
-		margin-left: 2.5%;
+		margin-left: 0%;
 		padding-left: 1px;
 		padding-top: 10px;
 		padding-bottom: 10px;
-		max-width: 180px;
+		max-width: 100%;
 	}
 
 	.Familial h2, .Économique h2, .Romantique h2, .Animaux_autorisés h2
@@ -824,13 +884,14 @@ footer
 		align-items: center;
 		width: 100%;
 		max-width: 768px;
+		margin-left: 20px;
 	}
 
 	.bloc_right a
 	{
 		width: 100%;
 	}
-
+	
 	.popular
 	{
 		display: flex;
@@ -841,8 +902,11 @@ footer
 
 	.card-1_right, .card-2_right, .card-3_right
 	{
-		width: 90%;
+		width: 83%;
 		margin-bottom: 15px;
+		height: 190px;
+		margin-left: 1%;
+		padding-right: 7%;
 	}
 
 	.card-1_right img, .card-2_right img, .card-3_right img
@@ -858,12 +922,13 @@ footer
 	.bloc_right
 	{
 		border-radius: 0%;
-		max-width: 728px;
-		width: auto;
+		max-width: 768px;
+		width: 100%;
 		height: auto;
 		margin-top: auto;
 		display: flex;
 		flex-direction: column;
+		padding-bottom: 9%;
 	}
 
 	.cards
@@ -872,6 +937,7 @@ footer
 		flex-direction: column;
 		max-width: 768px;
 		padding-left: 0%;
+		width: 93%;
 	}
 
 	.text_right
@@ -908,6 +974,11 @@ footer
 		border-radius: 0%;
 		max-width: 768px;
 		height: auto;
+		
+		padding-bottom: 4%;
+	}
+	.auberge , .hôtel_port, .hotel_mouettes,  .hôtel_mer , .auberge_panier, .hôtel_Amina
+	{
 		width: 100%;
 	}
 
@@ -927,6 +998,7 @@ footer
 	{
 		margin-top: 0%;
 		max-width: 768px;
+		height: 1000px;
 	}
 
 	.activite_marseille
@@ -939,7 +1011,7 @@ footer
 	.activite_marseille h1
 	{
 		margin-bottom: 20px;
-		width: 25%;
+		width: 40%;
 		margin-left: 10px;
 	}
 
@@ -979,6 +1051,8 @@ footer
 	{
 		max-width: 768px;
 		height: auto;
+		width: 110%;
+		
 	}
 
 	.propos_herbergement_assistance

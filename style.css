@@ -6,10 +6,13 @@
 	text-decoration: none;
 	color: black;
 }
+.wrapper {
+	padding-left: 5%;
+}
 
 body
 {
-	max-width: 1400px;
+	max-width: 1600px;
 	padding-left: 40px;
 }
 
@@ -489,10 +492,7 @@ footer
 	font-weight: bold;
 }
 
-.navigateur img
-{
-	/*margin-left: 15px;*/
-}
+
 
 /*Point information*/
 
